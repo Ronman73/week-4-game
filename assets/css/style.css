@@ -1,0 +1,36 @@
+body {
+	background: url("../images/stage2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+figure.characters {
+	display: inline-block;
+	max-width: 200px;
+	text-align: center;
+}
+figure.characters img {
+	height: 100px;
+	width: 150px;
+}
+#playerRow figure.characters {
+	background-color: white;
+	border: 2px solid green;
+	color: black;
+}
+#enemyRow figure.characters {
+	background-color: red;
+	border: 2px solid black;
+	color: black;
+}
+#defenderRow figure.characters {
+	border: 2px solid green;
+	background-color: black;
+	color: white;
+}
+
